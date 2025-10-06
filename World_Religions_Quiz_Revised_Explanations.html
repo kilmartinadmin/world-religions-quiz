@@ -1,0 +1,1398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>World Religions Quiz – Revised Explanations</title>
+<style>
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; margin:0; padding:0; background:#0b1020; color:#eef1f7;}
+  header{background:#111834; padding:24px 16px; position:sticky; top:0; z-index:10; box-shadow:0 2px 8px rgba(0,0,0,.4);}
+  h1{margin:0; font-size:20px;}
+  .container{max-width:900px; margin:0 auto; padding:24px 16px 80px;}
+  .card{background:#141c3a; border:1px solid #223; border-radius:16px; padding:16px 16px; margin:16px 0; box-shadow:0 4px 12px rgba(0,0,0,.35);}
+  .q-head{display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:8px;}
+  .q-title{font-weight:700;}
+  .badge{font-size:12px; padding:3px 8px; border-radius:999px; background:#243056; border:1px solid #2f3b69;}
+  .choices{display:grid; grid-template-columns:1fr; gap:8px; margin-top:8px;}
+  .choice{background:#0f1630; border:1px solid #23305a; border-radius:12px; padding:10px; cursor:pointer; transition:.15s; display:flex; align-items:flex-start; gap:8px;}
+  .choice:hover{transform:translateY(-1px); border-color:#3c4c8f;}
+  .choice input{margin-top:4px;}
+  .explanation{display:none; margin-top:10px; background:#0e1530; border:1px dashed #395; border-radius:12px; padding:10px; color:#bfe3bf;}
+  .correct{outline:2px solid #26a269;}
+  .incorrect{outline:2px solid #c01c28;}
+  .controls{position:fixed; bottom:0; left:0; right:0; background:#111834; border-top:1px solid #223; padding:12px 16px; display:flex; gap:12px; align-items:center; justify-content:space-between;}
+  .btn{background:#1f2b57; color:#fff; border:1px solid #2b3a75; padding:10px 14px; border-radius:10px; cursor:pointer; font-weight:600;}
+  .btn:hover{background:#26346b;}
+  .score{font-weight:800;}
+  .note{font-size:12px; opacity:.8;}
+</style>
+</head>
+<body>
+<header>
+  <h1>World Religions Quiz – Revised Explanations</h1>
+</header>
+<div class="container">
+  <div class="card">
+    <p>Explanations were rewritten to justify the correct answer using key terms from each question.</p>
+    <p class="note">Total items: <strong>61</strong></p>
+  </div>
+  <div class="card" id="q1" data-answer="B">
+    <div class="q-head">
+      <div class="q-title">Q1. The Ten Commandments and Five Pillars of Wisdom are similar in that they</div>
+      <span class="badge">Answer: <span id="ans1">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q1-A">
+        <input type="radio" name="q1" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> established a class structure for society</div>
+      </label>
+      <label class="choice" id="q1-B">
+        <input type="radio" name="q1" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> are guidelines for living</div>
+      </label>
+      <label class="choice" id="q1-C">
+        <input type="radio" name="q1" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> consist of prayers for salvation</div>
+      </label>
+      <label class="choice" id="q1-D">
+        <input type="radio" name="q1" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> promise a happy and easy life</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp1"><strong>Explanation:</strong> Judaism: the Torah and Ten Commandments define core law and ethics. Here, “are guidelines for living” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q2" data-answer="B">
+    <div class="q-head">
+      <div class="q-title">Q2. In India, the caste system has existed for many centuries because</div>
+      <span class="badge">Answer: <span id="ans2">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q2-A">
+        <input type="radio" name="q2" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> contact between India and the rest of the world has been limited</div>
+      </label>
+      <label class="choice" id="q2-B">
+        <input type="radio" name="q2" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> the Hindu doctrines of dharma and karma support the caste system</div>
+      </label>
+      <label class="choice" id="q2-C">
+        <input type="radio" name="q2" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> the caste system promoted industrialization</div>
+      </label>
+      <label class="choice" id="q2-D">
+        <input type="radio" name="q2" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> the Indian Congress Party supported a rigid class structure</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp2"><strong>Explanation:</strong> Hindu belief/practice: dharma (duty), karma (action→consequence), and moksha (liberation). Here, “the Hindu doctrines of dharma and karma support the caste system” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q3" data-answer="A">
+    <div class="q-head">
+      <div class="q-title">Q3. The philosophy of Confucius (K&#x27;ung-fu-tzu) stresses the importance of</div>
+      <span class="badge">Answer: <span id="ans3">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q3-A">
+        <input type="radio" name="q3" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> respect for authority</div>
+      </label>
+      <label class="choice" id="q3-B">
+        <input type="radio" name="q3" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> religious beliefs</div>
+      </label>
+      <label class="choice" id="q3-C">
+        <input type="radio" name="q3" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> a classless society</div>
+      </label>
+      <label class="choice" id="q3-D">
+        <input type="radio" name="q3" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> owning land</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp3"><strong>Explanation:</strong> Confucianism: social order through the Five Relationships, filial piety, and education. Here, “respect for authority” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q4" data-answer="C">
+    <div class="q-head">
+      <div class="q-title">Q4. Judaism and Christianity are similar because they</div>
+      <span class="badge">Answer: <span id="ans4">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q4-A">
+        <input type="radio" name="q4" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> base their beliefs on the Koran</div>
+      </label>
+      <label class="choice" id="q4-B">
+        <input type="radio" name="q4" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> stress belief in reincarnation</div>
+      </label>
+      <label class="choice" id="q4-C">
+        <input type="radio" name="q4" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> are monotheistic</div>
+      </label>
+      <label class="choice" id="q4-D">
+        <input type="radio" name="q4" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> promote the practice of polygamy</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp4"><strong>Explanation:</strong> Judaism: the Torah and Ten Commandments define core law and ethics. Here, “are monotheistic” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q5" data-answer="A">
+    <div class="q-head">
+      <div class="q-title">Q5. A goal common to Confucianism, Taoism, and Buddhism is to</div>
+      <span class="badge">Answer: <span id="ans5">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q5-A">
+        <input type="radio" name="q5" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> establish peace and harmony</div>
+      </label>
+      <label class="choice" id="q5-B">
+        <input type="radio" name="q5" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> provide the basis for democratic government</div>
+      </label>
+      <label class="choice" id="q5-C">
+        <input type="radio" name="q5" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> return the power of the emperors</div>
+      </label>
+      <label class="choice" id="q5-D">
+        <input type="radio" name="q5" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> promote individual artistic creativity</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp5"><strong>Explanation:</strong> Confucianism: social order through the Five Relationships, filial piety, and education. Here, “establish peace and harmony” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q6" data-answer="B">
+    <div class="q-head">
+      <div class="q-title">Q6. The religions of Judaism, Christianity, and Islam share a common belief in</div>
+      <span class="badge">Answer: <span id="ans6">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q6-A">
+        <input type="radio" name="q6" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> nirvana</div>
+      </label>
+      <label class="choice" id="q6-B">
+        <input type="radio" name="q6" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> monotheism</div>
+      </label>
+      <label class="choice" id="q6-C">
+        <input type="radio" name="q6" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> reincarnation</div>
+      </label>
+      <label class="choice" id="q6-D">
+        <input type="radio" name="q6" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> animism</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp6"><strong>Explanation:</strong> Judaism: the Torah and Ten Commandments define core law and ethics. Here, “monotheism” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q7" data-answer="D">
+    <div class="q-head">
+      <div class="q-title">Q7. Christianity and Islam are similar in that both</div>
+      <span class="badge">Answer: <span id="ans7">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q7-A">
+        <input type="radio" name="q7" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> are polytheistic religions</div>
+      </label>
+      <label class="choice" id="q7-B">
+        <input type="radio" name="q7" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> have practiced a strict code of nonviolence</div>
+      </label>
+      <label class="choice" id="q7-C">
+        <input type="radio" name="q7" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> have the same religious holidays</div>
+      </label>
+      <label class="choice" id="q7-D">
+        <input type="radio" name="q7" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> have roots in Judaism</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp7"><strong>Explanation:</strong> Judaism: the Torah and Ten Commandments define core law and ethics. Here, “have roots in Judaism” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q8" data-answer="C">
+    <div class="q-head">
+      <div class="q-title">Q8. The Five Pillars of Faith of Islam, the Ten Commandments of Judaism and Christianity, and the Eightfold Path of Buddhism are similar in that they all</div>
+      <span class="badge">Answer: <span id="ans8">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q8-A">
+        <input type="radio" name="q8" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> were set forth by the founder of the particular religion</div>
+      </label>
+      <label class="choice" id="q8-B">
+        <input type="radio" name="q8" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> offer a happy and easy life for those who follow their teachings</div>
+      </label>
+      <label class="choice" id="q8-C">
+        <input type="radio" name="q8" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> serve as guidelines to follow in personal conduct</div>
+      </label>
+      <label class="choice" id="q8-D">
+        <input type="radio" name="q8" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> indicate exactly how to achieve salvation</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp8"><strong>Explanation:</strong> Buddhist doctrine: the Four Noble Truths identify suffering and the Eightfold Path leads to Nirvana. Here, “serve as guidelines to follow in personal conduct” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q9" data-answer="C">
+    <div class="q-head">
+      <div class="q-title">Q9. Islam, Judaism, and Christianity are similar in that they all</div>
+      <span class="badge">Answer: <span id="ans9">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q9-A">
+        <input type="radio" name="q9" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> place great value on having many statues and images of holy people</div>
+      </label>
+      <label class="choice" id="q9-B">
+        <input type="radio" name="q9" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> believe in Mohammed as the Prophet of God</div>
+      </label>
+      <label class="choice" id="q9-C">
+        <input type="radio" name="q9" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> are monotheistic in belief</div>
+      </label>
+      <label class="choice" id="q9-D">
+        <input type="radio" name="q9" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> require their members to settle in the Holy Land</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp9"><strong>Explanation:</strong> Judaism: the Torah and Ten Commandments define core law and ethics. Here, “are monotheistic in belief” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q10" data-answer="C">
+    <div class="q-head">
+      <div class="q-title">Q10. Hinduism and Buddhism are similar in that both religions</div>
+      <span class="badge">Answer: <span id="ans10">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q10-A">
+        <input type="radio" name="q10" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> practice a belief in many gods</div>
+      </label>
+      <label class="choice" id="q10-B">
+        <input type="radio" name="q10" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> provide followers with a rigid social caste system</div>
+      </label>
+      <label class="choice" id="q10-C">
+        <input type="radio" name="q10" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> stress attainment of a better life through spiritual rebirth</div>
+      </label>
+      <label class="choice" id="q10-D">
+        <input type="radio" name="q10" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> look to the teaching of one person for their basic beliefs</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp10"><strong>Explanation:</strong> Hindu belief/practice: dharma (duty), karma (action→consequence), and moksha (liberation). Here, “stress attainment of a better life through spiritual rebirth” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q11" data-answer="A">
+    <div class="q-head">
+      <div class="q-title">Q11. Which speaker is most likely a Buddhist?</div>
+      <span class="badge">Answer: <span id="ans11">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q11-A">
+        <input type="radio" name="q11" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> A</div>
+      </label>
+      <label class="choice" id="q11-B">
+        <input type="radio" name="q11" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> B</div>
+      </label>
+      <label class="choice" id="q11-C">
+        <input type="radio" name="q11" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> C</div>
+      </label>
+      <label class="choice" id="q11-D">
+        <input type="radio" name="q11" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> D</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp11"><strong>Explanation:</strong> “A” is the option that best matches the concept named in the stem; alternatives do not.</div>
+  </div>
+  <div class="card" id="q12" data-answer="D">
+    <div class="q-head">
+      <div class="q-title">Q12. Which speaker expresses a belief in reincarnation?</div>
+      <span class="badge">Answer: <span id="ans12">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q12-A">
+        <input type="radio" name="q12" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> A</div>
+      </label>
+      <label class="choice" id="q12-B">
+        <input type="radio" name="q12" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> B</div>
+      </label>
+      <label class="choice" id="q12-C">
+        <input type="radio" name="q12" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> C</div>
+      </label>
+      <label class="choice" id="q12-D">
+        <input type="radio" name="q12" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> D</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp12"><strong>Explanation:</strong> Hindu belief/practice: dharma (duty), karma (action→consequence), and moksha (liberation). Here, “D” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q13" data-answer="C">
+    <div class="q-head">
+      <div class="q-title">Q13. The speaker’s statement that best reflects an ideal of Confucianism is</div>
+      <span class="badge">Answer: <span id="ans13">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q13-A">
+        <input type="radio" name="q13" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> A</div>
+      </label>
+      <label class="choice" id="q13-B">
+        <input type="radio" name="q13" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> B</div>
+      </label>
+      <label class="choice" id="q13-C">
+        <input type="radio" name="q13" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> C</div>
+      </label>
+      <label class="choice" id="q13-D">
+        <input type="radio" name="q13" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> D</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp13"><strong>Explanation:</strong> Confucianism: social order through the Five Relationships, filial piety, and education. Here, “C” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q14" data-answer="D">
+    <div class="q-head">
+      <div class="q-title">Q14. Which statement would most likely be spoken by a Hindu and not by a Muslim?</div>
+      <span class="badge">Answer: <span id="ans14">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q14-A">
+        <input type="radio" name="q14" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> “I am planning to go to Mecca next year to participate in the hajj.”</div>
+      </label>
+      <label class="choice" id="q14-B">
+        <input type="radio" name="q14" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> “My belief in the teachings of the Koran are very important to me.”</div>
+      </label>
+      <label class="choice" id="q14-C">
+        <input type="radio" name="q14" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> “I always enjoy the feast that follows the end of Ramadan.”</div>
+      </label>
+      <label class="choice" id="q14-D">
+        <input type="radio" name="q14" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> “My good deeds today will serve me well in my next reincarnation.”</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp14"><strong>Explanation:</strong> Hindu belief/practice: dharma (duty), karma (action→consequence), and moksha (liberation). Here, ““My good deeds today will serve me well in my next reincarnation.”” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q15" data-answer="C">
+    <div class="q-head">
+      <div class="q-title">Q15. The Buddhist religion teaches that salvation is earned by</div>
+      <span class="badge">Answer: <span id="ans15">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q15-A">
+        <input type="radio" name="q15" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> following the Ten Commandments</div>
+      </label>
+      <label class="choice" id="q15-B">
+        <input type="radio" name="q15" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> worshipping Allah as the one true god</div>
+      </label>
+      <label class="choice" id="q15-C">
+        <input type="radio" name="q15" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> learning to give up selfish desire</div>
+      </label>
+      <label class="choice" id="q15-D">
+        <input type="radio" name="q15" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> being baptized and confirmed</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp15"><strong>Explanation:</strong> Buddhist doctrine: the Four Noble Truths identify suffering and the Eightfold Path leads to Nirvana. Here, “learning to give up selfish desire” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q16" data-answer="B">
+    <div class="q-head">
+      <div class="q-title">Q16. People who accept the beliefs stated in this passage believe in</div>
+      <span class="badge">Answer: <span id="ans16">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q16-A">
+        <input type="radio" name="q16" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> polytheism</div>
+      </label>
+      <label class="choice" id="q16-B">
+        <input type="radio" name="q16" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> monotheism</div>
+      </label>
+      <label class="choice" id="q16-C">
+        <input type="radio" name="q16" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> emperor worship</div>
+      </label>
+      <label class="choice" id="q16-D">
+        <input type="radio" name="q16" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> papal authority</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp16"><strong>Explanation:</strong> Comparative belief: monotheism vs. polytheism. Here, “monotheism” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q17" data-answer="D">
+    <div class="q-head">
+      <div class="q-title">Q17. In which book can this passage be found?</div>
+      <span class="badge">Answer: <span id="ans17">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q17-A">
+        <input type="radio" name="q17" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> Old Testament of the Bible</div>
+      </label>
+      <label class="choice" id="q17-B">
+        <input type="radio" name="q17" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> Analects of Confucius</div>
+      </label>
+      <label class="choice" id="q17-C">
+        <input type="radio" name="q17" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> Talmud</div>
+      </label>
+      <label class="choice" id="q17-D">
+        <input type="radio" name="q17" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> Koran</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp17"><strong>Explanation:</strong> Islam: the Qur’an and the Five Pillars (faith, prayer, charity, fasting, pilgrimage). Here, “Koran” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q18" data-answer="A">
+    <div class="q-head">
+      <div class="q-title">Q18. The Koran, jihad, and the hegira are most closely associated with the practice of</div>
+      <span class="badge">Answer: <span id="ans18">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q18-A">
+        <input type="radio" name="q18" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> Islam</div>
+      </label>
+      <label class="choice" id="q18-B">
+        <input type="radio" name="q18" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> Judaism</div>
+      </label>
+      <label class="choice" id="q18-C">
+        <input type="radio" name="q18" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> Shinto</div>
+      </label>
+      <label class="choice" id="q18-D">
+        <input type="radio" name="q18" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> Buddhism</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp18"><strong>Explanation:</strong> Islam: the Qur’an and the Five Pillars (faith, prayer, charity, fasting, pilgrimage). Here, “Islam” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q19" data-answer="D">
+    <div class="q-head">
+      <div class="q-title">Q19. The teachings of Confucius (K&#x27;ung-fu-tzu) encouraged people to</div>
+      <span class="badge">Answer: <span id="ans19">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q19-A">
+        <input type="radio" name="q19" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> put their own interests first</div>
+      </label>
+      <label class="choice" id="q19-B">
+        <input type="radio" name="q19" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> reject government authority</div>
+      </label>
+      <label class="choice" id="q19-C">
+        <input type="radio" name="q19" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> believe in reincarnation</div>
+      </label>
+      <label class="choice" id="q19-D">
+        <input type="radio" name="q19" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> follow a code of moral conduct</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp19"><strong>Explanation:</strong> Confucianism: social order through the Five Relationships, filial piety, and education. Here, “follow a code of moral conduct” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q20" data-answer="C">
+    <div class="q-head">
+      <div class="q-title">Q20. The terms Brahma, dharma, and moksha are most closely associated with which religion?</div>
+      <span class="badge">Answer: <span id="ans20">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q20-A">
+        <input type="radio" name="q20" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> Judaism</div>
+      </label>
+      <label class="choice" id="q20-B">
+        <input type="radio" name="q20" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> Islam</div>
+      </label>
+      <label class="choice" id="q20-C">
+        <input type="radio" name="q20" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> Hinduism</div>
+      </label>
+      <label class="choice" id="q20-D">
+        <input type="radio" name="q20" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> animism</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp20"><strong>Explanation:</strong> Hindu belief/practice: dharma (duty), karma (action→consequence), and moksha (liberation). Here, “Hinduism” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q21" data-answer="D">
+    <div class="q-head">
+      <div class="q-title">Q21. Judaism, Islam, and Christianity share a belief in</div>
+      <span class="badge">Answer: <span id="ans21">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q21-A">
+        <input type="radio" name="q21" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> papal supremacy</div>
+      </label>
+      <label class="choice" id="q21-B">
+        <input type="radio" name="q21" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> teachings of the Koran (Quran)</div>
+      </label>
+      <label class="choice" id="q21-C">
+        <input type="radio" name="q21" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> reincarnation and the Four Noble Truths</div>
+      </label>
+      <label class="choice" id="q21-D">
+        <input type="radio" name="q21" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> an ethical code of conduct and monotheism</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp21"><strong>Explanation:</strong> Judaism: the Torah and Ten Commandments define core law and ethics. Here, “an ethical code of conduct and monotheism” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q22" data-answer="C">
+    <div class="q-head">
+      <div class="q-title">Q22. The spread of Buddhist ideas and customs to China and Southeast Asia was the result of</div>
+      <span class="badge">Answer: <span id="ans22">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q22-A">
+        <input type="radio" name="q22" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> the Mandate of Heaven</div>
+      </label>
+      <label class="choice" id="q22-B">
+        <input type="radio" name="q22" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> economic dependence</div>
+      </label>
+      <label class="choice" id="q22-C">
+        <input type="radio" name="q22" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> cultural diffusion</div>
+      </label>
+      <label class="choice" id="q22-D">
+        <input type="radio" name="q22" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> the civil service system</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp22"><strong>Explanation:</strong> Cultural diffusion: spread via trade networks, infrastructure, or state support. Here, “cultural diffusion” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q23" data-answer="D">
+    <div class="q-head">
+      <div class="q-title">Q23. The diagram illustrates the key concepts of which religion?</div>
+      <span class="badge">Answer: <span id="ans23">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q23-A">
+        <input type="radio" name="q23" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> Islam</div>
+      </label>
+      <label class="choice" id="q23-B">
+        <input type="radio" name="q23" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> Christianity</div>
+      </label>
+      <label class="choice" id="q23-C">
+        <input type="radio" name="q23" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> Hinduism</div>
+      </label>
+      <label class="choice" id="q23-D">
+        <input type="radio" name="q23" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> Buddhism</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp23"><strong>Explanation:</strong> “Buddhism” is the option that best matches the concept named in the stem; alternatives do not.</div>
+  </div>
+  <div class="card" id="q24" data-answer="B">
+    <div class="q-head">
+      <div class="q-title">Q24. According to Buddhist principles, believers can end personal suffering by</div>
+      <span class="badge">Answer: <span id="ans24">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q24-A">
+        <input type="radio" name="q24" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> doing good deeds</div>
+      </label>
+      <label class="choice" id="q24-B">
+        <input type="radio" name="q24" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> eliminating selfish desires</div>
+      </label>
+      <label class="choice" id="q24-C">
+        <input type="radio" name="q24" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> making pilgrimages to Mecca</div>
+      </label>
+      <label class="choice" id="q24-D">
+        <input type="radio" name="q24" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> relying on divine help</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp24"><strong>Explanation:</strong> Buddhist doctrine: the Four Noble Truths identify suffering and the Eightfold Path leads to Nirvana. Here, “eliminating selfish desires” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q25" data-answer="C">
+    <div class="q-head">
+      <div class="q-title">Q25. Christianity, Islam, and Judaism are similar in that they all ask their followers to</div>
+      <span class="badge">Answer: <span id="ans25">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q25-A">
+        <input type="radio" name="q25" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> believe in reincarnation</div>
+      </label>
+      <label class="choice" id="q25-B">
+        <input type="radio" name="q25" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> strive for nirvana</div>
+      </label>
+      <label class="choice" id="q25-C">
+        <input type="radio" name="q25" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> follow a code of behavior</div>
+      </label>
+      <label class="choice" id="q25-D">
+        <input type="radio" name="q25" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> practice polytheism</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp25"><strong>Explanation:</strong> Judaism: the Torah and Ten Commandments define core law and ethics. Here, “follow a code of behavior” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q26" data-answer="C">
+    <div class="q-head">
+      <div class="q-title">Q26. This translated quotation from the Qur’an [Koran] refers to</div>
+      <span class="badge">Answer: <span id="ans26">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q26-A">
+        <input type="radio" name="q26" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> Buddha</div>
+      </label>
+      <label class="choice" id="q26-B">
+        <input type="radio" name="q26" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> Shiva</div>
+      </label>
+      <label class="choice" id="q26-C">
+        <input type="radio" name="q26" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> Allah</div>
+      </label>
+      <label class="choice" id="q26-D">
+        <input type="radio" name="q26" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> Muhammad</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp26"><strong>Explanation:</strong> Islam: the Qur’an and the Five Pillars (faith, prayer, charity, fasting, pilgrimage). Here, “Allah” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q27" data-answer="A">
+    <div class="q-head">
+      <div class="q-title">Q27. This statue is most closely associated with which religion?</div>
+      <span class="badge">Answer: <span id="ans27">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q27-A">
+        <input type="radio" name="q27" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> Buddhism</div>
+      </label>
+      <label class="choice" id="q27-B">
+        <input type="radio" name="q27" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> Islam</div>
+      </label>
+      <label class="choice" id="q27-C">
+        <input type="radio" name="q27" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> Jainism</div>
+      </label>
+      <label class="choice" id="q27-D">
+        <input type="radio" name="q27" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> Christianity</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp27"><strong>Explanation:</strong> “Buddhism” is the option that best matches the concept named in the stem; alternatives do not.</div>
+  </div>
+  <div class="card" id="q28" data-answer="C">
+    <div class="q-head">
+      <div class="q-title">Q28. Which belief is shared by Hindus and Buddhists?</div>
+      <span class="badge">Answer: <span id="ans28">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q28-A">
+        <input type="radio" name="q28" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> Everyone should have the same social status.</div>
+      </label>
+      <label class="choice" id="q28-B">
+        <input type="radio" name="q28" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> People should pray five times a day.</div>
+      </label>
+      <label class="choice" id="q28-C">
+        <input type="radio" name="q28" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> The soul can be reincarnated.</div>
+      </label>
+      <label class="choice" id="q28-D">
+        <input type="radio" name="q28" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> Material wealth is a sign of the blessing of the gods.</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp28"><strong>Explanation:</strong> Hindu belief/practice: dharma (duty), karma (action→consequence), and moksha (liberation). Here, “The soul can be reincarnated.” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q29" data-answer="C">
+    <div class="q-head">
+      <div class="q-title">Q29. Which term is most closely related to these three actions?</div>
+      <span class="badge">Answer: <span id="ans29">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q29-A">
+        <input type="radio" name="q29" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> nirvana</div>
+      </label>
+      <label class="choice" id="q29-B">
+        <input type="radio" name="q29" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> animism</div>
+      </label>
+      <label class="choice" id="q29-C">
+        <input type="radio" name="q29" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> filial piety</div>
+      </label>
+      <label class="choice" id="q29-D">
+        <input type="radio" name="q29" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> hadj (hajj)</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp29"><strong>Explanation:</strong> Confucianism: social order through the Five Relationships, filial piety, and education. Here, “filial piety” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q30" data-answer="C">
+    <div class="q-head">
+      <div class="q-title">Q30. Which concept is best reflected in this passage?</div>
+      <span class="badge">Answer: <span id="ans30">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q30-A">
+        <input type="radio" name="q30" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> baptism</div>
+      </label>
+      <label class="choice" id="q30-B">
+        <input type="radio" name="q30" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> karma</div>
+      </label>
+      <label class="choice" id="q30-C">
+        <input type="radio" name="q30" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> monotheism</div>
+      </label>
+      <label class="choice" id="q30-D">
+        <input type="radio" name="q30" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> animism</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp30"><strong>Explanation:</strong> Comparative belief: monotheism vs. polytheism. Here, “monotheism” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q31" data-answer="A">
+    <div class="q-head">
+      <div class="q-title">Q31. Which belief system is most closely associated with the terms Eightfold Path, Four Noble Truths, and nirvana?</div>
+      <span class="badge">Answer: <span id="ans31">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q31-A">
+        <input type="radio" name="q31" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> Buddhism</div>
+      </label>
+      <label class="choice" id="q31-B">
+        <input type="radio" name="q31" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> Christianity</div>
+      </label>
+      <label class="choice" id="q31-C">
+        <input type="radio" name="q31" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> Judaism</div>
+      </label>
+      <label class="choice" id="q31-D">
+        <input type="radio" name="q31" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> Shinto</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp31"><strong>Explanation:</strong> Buddhist doctrine: the Four Noble Truths identify suffering and the Eightfold Path leads to Nirvana. Here, “Buddhism” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q32" data-answer="B">
+    <div class="q-head">
+      <div class="q-title">Q32. This passage describes the experience of a follower of</div>
+      <span class="badge">Answer: <span id="ans32">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q32-A">
+        <input type="radio" name="q32" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> Christianity</div>
+      </label>
+      <label class="choice" id="q32-B">
+        <input type="radio" name="q32" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> Islam</div>
+      </label>
+      <label class="choice" id="q32-C">
+        <input type="radio" name="q32" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> Hinduism</div>
+      </label>
+      <label class="choice" id="q32-D">
+        <input type="radio" name="q32" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> Judaism</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp32"><strong>Explanation:</strong> Islam: the Qur’an and the Five Pillars (faith, prayer, charity, fasting, pilgrimage). Here, “Islam” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q33" data-answer="C">
+    <div class="q-head">
+      <div class="q-title">Q33. Which action is most closely associated with polytheism?</div>
+      <span class="badge">Answer: <span id="ans33">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q33-A">
+        <input type="radio" name="q33" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> praying in a synagogue</div>
+      </label>
+      <label class="choice" id="q33-B">
+        <input type="radio" name="q33" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> accepting the Eightfold Path</div>
+      </label>
+      <label class="choice" id="q33-C">
+        <input type="radio" name="q33" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> worshipping many gods</div>
+      </label>
+      <label class="choice" id="q33-D">
+        <input type="radio" name="q33" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> reading the Koran</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp33"><strong>Explanation:</strong> Comparative belief: monotheism vs. polytheism. Here, “worshipping many gods” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q34" data-answer="C">
+    <div class="q-head">
+      <div class="q-title">Q34. Which belief system is considered monotheistic?</div>
+      <span class="badge">Answer: <span id="ans34">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q34-A">
+        <input type="radio" name="q34" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> Jainism</div>
+      </label>
+      <label class="choice" id="q34-B">
+        <input type="radio" name="q34" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> Daoism</div>
+      </label>
+      <label class="choice" id="q34-C">
+        <input type="radio" name="q34" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> Judaism</div>
+      </label>
+      <label class="choice" id="q34-D">
+        <input type="radio" name="q34" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> Shinto</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp34"><strong>Explanation:</strong> Judaism: the Torah and Ten Commandments define core law and ethics. Here, “Judaism” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q35" data-answer="D">
+    <div class="q-head">
+      <div class="q-title">Q35. Which text is essential to the practice of Islam?</div>
+      <span class="badge">Answer: <span id="ans35">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q35-A">
+        <input type="radio" name="q35" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> New Testament</div>
+      </label>
+      <label class="choice" id="q35-B">
+        <input type="radio" name="q35" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> Analects</div>
+      </label>
+      <label class="choice" id="q35-C">
+        <input type="radio" name="q35" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> Torah</div>
+      </label>
+      <label class="choice" id="q35-D">
+        <input type="radio" name="q35" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> Qur’an (Koran)</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp35"><strong>Explanation:</strong> Islam: the Qur’an and the Five Pillars (faith, prayer, charity, fasting, pilgrimage). Here, “Qur’an (Koran)” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q36" data-answer="D">
+    <div class="q-head">
+      <div class="q-title">Q36. Filial piety and the five relationships are most often associated with</div>
+      <span class="badge">Answer: <span id="ans36">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q36-A">
+        <input type="radio" name="q36" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> Hinduism</div>
+      </label>
+      <label class="choice" id="q36-B">
+        <input type="radio" name="q36" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> Daoism</div>
+      </label>
+      <label class="choice" id="q36-C">
+        <input type="radio" name="q36" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> animism</div>
+      </label>
+      <label class="choice" id="q36-D">
+        <input type="radio" name="q36" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> Confucianism</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp36"><strong>Explanation:</strong> Confucianism: social order through the Five Relationships, filial piety, and education. Here, “Confucianism” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q37" data-answer="C">
+    <div class="q-head">
+      <div class="q-title">Q37. Which belief system requires fasting during Ramadan, praying five times daily, and making a pilgrimage to Mecca?</div>
+      <span class="badge">Answer: <span id="ans37">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q37-A">
+        <input type="radio" name="q37" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> Judaism</div>
+      </label>
+      <label class="choice" id="q37-B">
+        <input type="radio" name="q37" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> Christianity</div>
+      </label>
+      <label class="choice" id="q37-C">
+        <input type="radio" name="q37" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> Islam</div>
+      </label>
+      <label class="choice" id="q37-D">
+        <input type="radio" name="q37" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> Hinduism</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp37"><strong>Explanation:</strong> Islam: the Qur’an and the Five Pillars (faith, prayer, charity, fasting, pilgrimage). Here, “Islam” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q38" data-answer="A">
+    <div class="q-head">
+      <div class="q-title">Q38. A person who practices Hinduism would most likely</div>
+      <span class="badge">Answer: <span id="ans38">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q38-A">
+        <input type="radio" name="q38" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> believe the Vedas are sacred</div>
+      </label>
+      <label class="choice" id="q38-B">
+        <input type="radio" name="q38" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> worship in a synagogue</div>
+      </label>
+      <label class="choice" id="q38-C">
+        <input type="radio" name="q38" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> pray facing Mecca</div>
+      </label>
+      <label class="choice" id="q38-D">
+        <input type="radio" name="q38" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> make a pilgrimage to Jerusalem</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp38"><strong>Explanation:</strong> Hindu belief/practice: dharma (duty), karma (action→consequence), and moksha (liberation). Here, “believe the Vedas are sacred” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q39" data-answer="B">
+    <div class="q-head">
+      <div class="q-title">Q39. Which statement was true of the caste system in traditional India?</div>
+      <span class="badge">Answer: <span id="ans39">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q39-A">
+        <input type="radio" name="q39" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> Members of different castes often intermarried.</div>
+      </label>
+      <label class="choice" id="q39-B">
+        <input type="radio" name="q39" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> Caste membership determined a person’s occupation.</div>
+      </label>
+      <label class="choice" id="q39-C">
+        <input type="radio" name="q39" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> The highest caste was composed of untouchables.</div>
+      </label>
+      <label class="choice" id="q39-D">
+        <input type="radio" name="q39" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> The caste system had little effect on daily village life.</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp39"><strong>Explanation:</strong> Hindu belief/practice: dharma (duty), karma (action→consequence), and moksha (liberation). Here, “Caste membership determined a person’s occupation.” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q40" data-answer="D">
+    <div class="q-head">
+      <div class="q-title">Q40. In ancient China, one effect on government of the teachings of Confucius (K&#x27;ung-fu-tzu) was the high status of</div>
+      <span class="badge">Answer: <span id="ans40">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q40-A">
+        <input type="radio" name="q40" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> soldiers</div>
+      </label>
+      <label class="choice" id="q40-B">
+        <input type="radio" name="q40" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> merchants</div>
+      </label>
+      <label class="choice" id="q40-C">
+        <input type="radio" name="q40" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> farmers</div>
+      </label>
+      <label class="choice" id="q40-D">
+        <input type="radio" name="q40" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> scholars</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp40"><strong>Explanation:</strong> Confucianism: social order through the Five Relationships, filial piety, and education. Here, “scholars” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q41" data-answer="C">
+    <div class="q-head">
+      <div class="q-title">Q41. Which statement best describes the influence of the caste system on villages in India?</div>
+      <span class="badge">Answer: <span id="ans41">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q41-A">
+        <input type="radio" name="q41" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> Heavy industrial development is taking place in many villages.</div>
+      </label>
+      <label class="choice" id="q41-B">
+        <input type="radio" name="q41" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> Village homes are often constructed of mud bricks.</div>
+      </label>
+      <label class="choice" id="q41-C">
+        <input type="radio" name="q41" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> Villagers’ occupations often determine with whom they may associate.</div>
+      </label>
+      <label class="choice" id="q41-D">
+        <input type="radio" name="q41" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> Government programs encourage villagers to try new farming methods.</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp41"><strong>Explanation:</strong> Hindu belief/practice: dharma (duty), karma (action→consequence), and moksha (liberation). Here, “Villagers’ occupations often determine with whom they may associate.” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q42" data-answer="A">
+    <div class="q-head">
+      <div class="q-title">Q42. In traditional India, the caste system and the Hindi beliefs in karma and dharma most directly resulted in</div>
+      <span class="badge">Answer: <span id="ans42">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q42-A">
+        <input type="radio" name="q42" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> the establishment of a set of rules for each individual in the society</div>
+      </label>
+      <label class="choice" id="q42-B">
+        <input type="radio" name="q42" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> the rapid industrialization of the economy</div>
+      </label>
+      <label class="choice" id="q42-C">
+        <input type="radio" name="q42" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> a strong emphasis on the acquisition of wealth</div>
+      </label>
+      <label class="choice" id="q42-D">
+        <input type="radio" name="q42" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> a strong belief in the importance of education</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp42"><strong>Explanation:</strong> Hindu belief/practice: dharma (duty), karma (action→consequence), and moksha (liberation). Here, “the establishment of a set of rules for each individual in the society” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q43" data-answer="C">
+    <div class="q-head">
+      <div class="q-title">Q43. In traditional Chinese culture, which philosophy had the greatest influence on the development of social order and political organization?</div>
+      <span class="badge">Answer: <span id="ans43">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q43-A">
+        <input type="radio" name="q43" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> Taoism</div>
+      </label>
+      <label class="choice" id="q43-B">
+        <input type="radio" name="q43" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> Shintoism</div>
+      </label>
+      <label class="choice" id="q43-C">
+        <input type="radio" name="q43" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> Confucianism</div>
+      </label>
+      <label class="choice" id="q43-D">
+        <input type="radio" name="q43" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> Marxism</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp43"><strong>Explanation:</strong> Confucianism: social order through the Five Relationships, filial piety, and education. Here, “Confucianism” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q44" data-answer="C">
+    <div class="q-head">
+      <div class="q-title">Q44. The spread of Islam throughout the African continent is an example of</div>
+      <span class="badge">Answer: <span id="ans44">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q44-A">
+        <input type="radio" name="q44" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> national security</div>
+      </label>
+      <label class="choice" id="q44-B">
+        <input type="radio" name="q44" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> socialism</div>
+      </label>
+      <label class="choice" id="q44-C">
+        <input type="radio" name="q44" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> cultural diffusion</div>
+      </label>
+      <label class="choice" id="q44-D">
+        <input type="radio" name="q44" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> self-determination</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp44"><strong>Explanation:</strong> Islam: the Qur’an and the Five Pillars (faith, prayer, charity, fasting, pilgrimage). Here, “cultural diffusion” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q45" data-answer="D">
+    <div class="q-head">
+      <div class="q-title">Q45. Social mobility within a society means that people may</div>
+      <span class="badge">Answer: <span id="ans45">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q45-A">
+        <input type="radio" name="q45" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> travel throughout the country a great deal</div>
+      </label>
+      <label class="choice" id="q45-B">
+        <input type="radio" name="q45" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> work at many different jobs during their lifetime</div>
+      </label>
+      <label class="choice" id="q45-C">
+        <input type="radio" name="q45" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> switch frequently from one political party to another</div>
+      </label>
+      <label class="choice" id="q45-D">
+        <input type="radio" name="q45" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> move from one social class to another</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp45"><strong>Explanation:</strong> “move from one social class to another” is the option that best matches the concept named in the stem; alternatives do not.</div>
+  </div>
+  <div class="card" id="q46" data-answer="C">
+    <div class="q-head">
+      <div class="q-title">Q46. Which is most characteristic of a society having a caste system?</div>
+      <span class="badge">Answer: <span id="ans46">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q46-A">
+        <input type="radio" name="q46" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> slow rate of population growth</div>
+      </label>
+      <label class="choice" id="q46-B">
+        <input type="radio" name="q46" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> lack of strong cultural traditions</div>
+      </label>
+      <label class="choice" id="q46-C">
+        <input type="radio" name="q46" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> limited opportunities for social mobility</div>
+      </label>
+      <label class="choice" id="q46-D">
+        <input type="radio" name="q46" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> equal distribution of wealth among social classes</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp46"><strong>Explanation:</strong> Hindu belief/practice: dharma (duty), karma (action→consequence), and moksha (liberation). Here, “limited opportunities for social mobility” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q47" data-answer="B">
+    <div class="q-head">
+      <div class="q-title">Q47. Which best describes a major characteristic of Islam?</div>
+      <span class="badge">Answer: <span id="ans47">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q47-A">
+        <input type="radio" name="q47" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> Islam has largely lost its influence on the daily lives of its followers.</div>
+      </label>
+      <label class="choice" id="q47-B">
+        <input type="radio" name="q47" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> Islam, like other major religions, is composed of sects which sometimes disagree on beliefs and practices.</div>
+      </label>
+      <label class="choice" id="q47-C">
+        <input type="radio" name="q47" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> A major goal of Islamic religious leaders is the adaptation of Western cultural ideas.</div>
+      </label>
+      <label class="choice" id="q47-D">
+        <input type="radio" name="q47" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> Separation of church and state is a fundamental belief of Islam.</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp47"><strong>Explanation:</strong> Islam: the Qur’an and the Five Pillars (faith, prayer, charity, fasting, pilgrimage). Here, “Islam, like other major religions, is composed of sects which sometimes disagree on beliefs and practices.” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q48" data-answer="D">
+    <div class="q-head">
+      <div class="q-title">Q48. Which is a valid statement about the role of religion in modern India?</div>
+      <span class="badge">Answer: <span id="ans48">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q48-A">
+        <input type="radio" name="q48" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> Buddhism has replaced Hinduism as the major religion.</div>
+      </label>
+      <label class="choice" id="q48-B">
+        <input type="radio" name="q48" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> Religion has lost most of its influence and importance.</div>
+      </label>
+      <label class="choice" id="q48-C">
+        <input type="radio" name="q48" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> Religion and politics are rigidly separated.</div>
+      </label>
+      <label class="choice" id="q48-D">
+        <input type="radio" name="q48" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> Religious beliefs and social structure are closely related.</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp48"><strong>Explanation:</strong> “Religious beliefs and social structure are closely related.” is the option that best matches the concept named in the stem; alternatives do not.</div>
+  </div>
+  <div class="card" id="q49" data-answer="C">
+    <div class="q-head">
+      <div class="q-title">Q49. Confucianism emphasizes the idea that</div>
+      <span class="badge">Answer: <span id="ans49">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q49-A">
+        <input type="radio" name="q49" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> government should own the means of production</div>
+      </label>
+      <label class="choice" id="q49-B">
+        <input type="radio" name="q49" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> economic success is more desirable than knowledge and learning</div>
+      </label>
+      <label class="choice" id="q49-C">
+        <input type="radio" name="q49" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> each person has an important responsibility to family and society</div>
+      </label>
+      <label class="choice" id="q49-D">
+        <input type="radio" name="q49" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> an individual’s personal goals are more important than the goals of the group</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp49"><strong>Explanation:</strong> Confucianism: social order through the Five Relationships, filial piety, and education. Here, “each person has an important responsibility to family and society” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q50" data-answer="B">
+    <div class="q-head">
+      <div class="q-title">Q50. In India today, the continued discrimination based on caste illustrates</div>
+      <span class="badge">Answer: <span id="ans50">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q50-A">
+        <input type="radio" name="q50" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> a commitment to a capitalist economic system</div>
+      </label>
+      <label class="choice" id="q50-B">
+        <input type="radio" name="q50" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> the gap between law and tradition</div>
+      </label>
+      <label class="choice" id="q50-C">
+        <input type="radio" name="q50" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> the influence of the cold war on India</div>
+      </label>
+      <label class="choice" id="q50-D">
+        <input type="radio" name="q50" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> the declining role of religion in modern society</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp50"><strong>Explanation:</strong> Hindu belief/practice: dharma (duty), karma (action→consequence), and moksha (liberation). Here, “the gap between law and tradition” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q51" data-answer="A">
+    <div class="q-head">
+      <div class="q-title">Q51. Which is a valid statement about the history of South Asia?</div>
+      <span class="badge">Answer: <span id="ans51">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q51-A">
+        <input type="radio" name="q51" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> Religious beliefs have both unified and divided the people of the region.</div>
+      </label>
+      <label class="choice" id="q51-B">
+        <input type="radio" name="q51" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> Little cultural diffusion has occurred in this region.</div>
+      </label>
+      <label class="choice" id="q51-C">
+        <input type="radio" name="q51" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> Urbanization has strengthened the traditional beliefs and lifestyles of the people of the region.</div>
+      </label>
+      <label class="choice" id="q51-D">
+        <input type="radio" name="q51" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> Superpower involvement has brought peace and economic prosperity to the region.</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp51"><strong>Explanation:</strong> “Religious beliefs have both unified and divided the people of the region.” is the option that best matches the concept named in the stem; alternatives do not.</div>
+  </div>
+  <div class="card" id="q52" data-answer="A">
+    <div class="q-head">
+      <div class="q-title">Q52. The caste system influenced traditional rural Indian society by</div>
+      <span class="badge">Answer: <span id="ans52">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q52-A">
+        <input type="radio" name="q52" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> limiting social and economic progress</div>
+      </label>
+      <label class="choice" id="q52-B">
+        <input type="radio" name="q52" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> promoting political instability</div>
+      </label>
+      <label class="choice" id="q52-C">
+        <input type="radio" name="q52" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> reducing the power of landowners</div>
+      </label>
+      <label class="choice" id="q52-D">
+        <input type="radio" name="q52" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> contributing to greater social mobility</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp52"><strong>Explanation:</strong> Hindu belief/practice: dharma (duty), karma (action→consequence), and moksha (liberation). Here, “limiting social and economic progress” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q53" data-answer="C">
+    <div class="q-head">
+      <div class="q-title">Q53. Considering the following statement,</div>
+      <span class="badge">Answer: <span id="ans53">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q53-A">
+        <input type="radio" name="q53" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> “It is better to do the work of your own caste poorly than to do the work of another caste well.”</div>
+      </label>
+      <label class="choice" id="q53-B">
+        <input type="radio" name="q53" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> What best expresses the idea that in traditional India…</div>
+      </label>
+      <label class="choice" id="q53-C">
+        <input type="radio" name="q53" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> each person could choose his or her occupation</div>
+      </label>
+      <label class="choice" id="q53-D">
+        <input type="radio" name="q53" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> skilled workers were needed</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp53"><strong>Explanation:</strong> “each person could choose his or her occupation” is the option that best matches the concept named in the stem; alternatives do not.</div>
+  </div>
+  <div class="card" id="q54" data-answer="D">
+    <div class="q-head">
+      <div class="q-title">Q54. In China, Confucianism emphasized the idea that</div>
+      <span class="badge">Answer: <span id="ans54">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q54-A">
+        <input type="radio" name="q54" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> equality should exist between all members of society</div>
+      </label>
+      <label class="choice" id="q54-B">
+        <input type="radio" name="q54" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> salvation could be attained by prayer, meditation, and good deeds</div>
+      </label>
+      <label class="choice" id="q54-C">
+        <input type="radio" name="q54" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> individual goals should be placed ahead of the needs of the group</div>
+      </label>
+      <label class="choice" id="q54-D">
+        <input type="radio" name="q54" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> harmony could be achieved by the proper behavior of each member of a family or society</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp54"><strong>Explanation:</strong> Confucianism: social order through the Five Relationships, filial piety, and education. Here, “harmony could be achieved by the proper behavior of each member of a family or society” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q55" data-answer="B">
+    <div class="q-head">
+      <div class="q-title">Q55. The five relationships taught by Confucius (K&#x27;ung-fu-tzu) encouraged people to</div>
+      <span class="badge">Answer: <span id="ans55">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q55-A">
+        <input type="radio" name="q55" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> improve their position in life</div>
+      </label>
+      <label class="choice" id="q55-B">
+        <input type="radio" name="q55" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> maintain social and political order</div>
+      </label>
+      <label class="choice" id="q55-C">
+        <input type="radio" name="q55" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> respect and worship nature</div>
+      </label>
+      <label class="choice" id="q55-D">
+        <input type="radio" name="q55" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> serve the needs of religious leaders</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp55"><strong>Explanation:</strong> Confucianism: social order through the Five Relationships, filial piety, and education. Here, “maintain social and political order” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q56" data-answer="C">
+    <div class="q-head">
+      <div class="q-title">Q56. Which concept is illustrated in the diagram?</div>
+      <span class="badge">Answer: <span id="ans56">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q56-A">
+        <input type="radio" name="q56" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> manorialism</div>
+      </label>
+      <label class="choice" id="q56-B">
+        <input type="radio" name="q56" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> apartheid</div>
+      </label>
+      <label class="choice" id="q56-C">
+        <input type="radio" name="q56" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> caste</div>
+      </label>
+      <label class="choice" id="q56-D">
+        <input type="radio" name="q56" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> encomienda</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp56"><strong>Explanation:</strong> Hindu belief/practice: dharma (duty), karma (action→consequence), and moksha (liberation). Here, “caste” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q57" data-answer="A">
+    <div class="q-head">
+      <div class="q-title">Q57. Which religion or belief system is most closely associated with the social class system illustrated in the diagram?</div>
+      <span class="badge">Answer: <span id="ans57">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q57-A">
+        <input type="radio" name="q57" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> Hinduism</div>
+      </label>
+      <label class="choice" id="q57-B">
+        <input type="radio" name="q57" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> Daoism</div>
+      </label>
+      <label class="choice" id="q57-C">
+        <input type="radio" name="q57" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> Catholicism</div>
+      </label>
+      <label class="choice" id="q57-D">
+        <input type="radio" name="q57" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> animism</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp57"><strong>Explanation:</strong> Hindu belief/practice: dharma (duty), karma (action→consequence), and moksha (liberation). Here, “Hinduism” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q58" data-answer="A">
+    <div class="q-head">
+      <div class="q-title">Q58. The illustration shows the relationship between individuals in a society according to the ideas of</div>
+      <span class="badge">Answer: <span id="ans58">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q58-A">
+        <input type="radio" name="q58" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> Confucius (K&#x27;ung-fu-tzu)</div>
+      </label>
+      <label class="choice" id="q58-B">
+        <input type="radio" name="q58" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> Moses</div>
+      </label>
+      <label class="choice" id="q58-C">
+        <input type="radio" name="q58" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> Mohammad</div>
+      </label>
+      <label class="choice" id="q58-D">
+        <input type="radio" name="q58" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> Siddhartha Gautama</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp58"><strong>Explanation:</strong> Confucianism: social order through the Five Relationships, filial piety, and education. Here, “Confucius (K&amp;#x27;ung-fu-tzu)” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q59" data-answer="C">
+    <div class="q-head">
+      <div class="q-title">Q59. In China, the development of civil service examinations and a belief in filial piety reflect the influence of</div>
+      <span class="badge">Answer: <span id="ans59">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q59-A">
+        <input type="radio" name="q59" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> Shinto</div>
+      </label>
+      <label class="choice" id="q59-B">
+        <input type="radio" name="q59" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> Jainism</div>
+      </label>
+      <label class="choice" id="q59-C">
+        <input type="radio" name="q59" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> Confucianism</div>
+      </label>
+      <label class="choice" id="q59-D">
+        <input type="radio" name="q59" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> Buddhism</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp59"><strong>Explanation:</strong> Confucianism: social order through the Five Relationships, filial piety, and education. Here, “Confucianism” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q60" data-answer="D">
+    <div class="q-head">
+      <div class="q-title">Q60. Which Chinese philosophy best completes this graphic organizer?</div>
+      <span class="badge">Answer: <span id="ans60">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q60-A">
+        <input type="radio" name="q60" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> Maoism</div>
+      </label>
+      <label class="choice" id="q60-B">
+        <input type="radio" name="q60" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> Daoism</div>
+      </label>
+      <label class="choice" id="q60-C">
+        <input type="radio" name="q60" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> legalism</div>
+      </label>
+      <label class="choice" id="q60-D">
+        <input type="radio" name="q60" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> Confucianism</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp60"><strong>Explanation:</strong> Confucianism: social order through the Five Relationships, filial piety, and education. Here, “Confucianism” directly satisfies the stem.</div>
+  </div>
+  <div class="card" id="q61" data-answer="A">
+    <div class="q-head">
+      <div class="q-title">Q61. Believers of Hinduism are expected to</div>
+      <span class="badge">Answer: <span id="ans61">—</span></span>
+    </div>
+    <div class="choices">
+      <label class="choice" id="q61-A">
+        <input type="radio" name="q61" value="A" onclick="grade({n}, 'A')"> <div><strong>A.</strong> fulfill their dharma for a favorable reincarnation</div>
+      </label>
+      <label class="choice" id="q61-B">
+        <input type="radio" name="q61" value="B" onclick="grade({n}, 'B')"> <div><strong>B.</strong> complete a pilgrimage to Mecca</div>
+      </label>
+      <label class="choice" id="q61-C">
+        <input type="radio" name="q61" value="C" onclick="grade({n}, 'C')"> <div><strong>C.</strong> obey the Ten Commandments</div>
+      </label>
+      <label class="choice" id="q61-D">
+        <input type="radio" name="q61" value="D" onclick="grade({n}, 'D')"> <div><strong>D.</strong> follow the Eightfold Path to achieve enlightenment</div>
+      </label>
+    </div>
+    <div class="explanation" id="exp61"><strong>Explanation:</strong> Hindu belief/practice: dharma (duty), karma (action→consequence), and moksha (liberation). Here, “fulfill their dharma for a favorable reincarnation” directly satisfies the stem.</div>
+  </div>
+
+</div>
+<div class="controls">
+  <div><span class="score">Score: <span id="score">0</span>/<span id="total2">61</span></span> • <span id="percent">0%</span></div>
+  <div>
+    <button class="btn" onclick="showAll()">Show Answers</button>
+    <button class="btn" onclick="resetQuiz()">Reset</button>
+    <button class="btn" onclick="showAllExps()">Show All Explanations</button>
+    <button class="btn" onclick="hideAllExps()">Hide All Explanations</button>
+  </div>
+</div>
+<script>
+let correctSet = new Set();
+
+function grade(n, choice){
+  const card = document.getElementById('q'+n);
+  if(!card) return;
+  const correct = card.getAttribute('data-answer');
+  const exp = document.getElementById('exp'+n);
+  card.querySelectorAll('.choice').forEach(el=>el.classList.remove('correct','incorrect'));
+  const picked = document.getElementById('q'+n+'-'+choice);
+  if(picked){
+    if(choice === correct){
+      picked.classList.add('correct');
+      exp.style.display = 'block';
+      correctSet.add(n);
+    }else{
+      picked.classList.add('incorrect');
+      exp.style.display = 'block';
+      correctSet.delete(n);
+    }
+  }
+  const ansNode = document.getElementById('ans'+n);
+  if(ansNode){ ansNode.textContent = choice + (choice===correct ? ' ✓' : ' ✗'); }
+  updateScore();
+}
+
+function updateScore(){
+  const score = correctSet.size;
+  const totalLocal = 61;
+  const scoreNode = document.getElementById('score');
+  const pctNode = document.getElementById('percent');
+  if(scoreNode) scoreNode.textContent = score;
+  if(pctNode) pctNode.textContent = Math.round((score/totalLocal)*100) + '%';
+}
+
+function showAll(){
+  document.querySelectorAll('.card[id^="q"]').forEach(card=>{
+    const n = parseInt(card.id.replace('q',''));
+    const correct = card.getAttribute('data-answer');
+    const input = card.querySelector('input[value="'+correct+'"]');
+    if(input){ input.checked = true; }
+    grade(n, correct);
+  });
+}
+
+function resetQuiz(){
+  correctSet = new Set();
+  document.querySelectorAll('.card[id^="q"]').forEach(card=>{
+    card.querySelectorAll('input[type="radio"]').forEach(i=>{ i.checked = false; });
+    card.querySelectorAll('.choice').forEach(el=>el.classList.remove('correct','incorrect'));
+    const n = parseInt(card.id.replace('q',''));
+    const ansNode = document.getElementById('ans'+n);
+    if(ansNode){ ansNode.textContent = '—'; }
+    const exp = document.getElementById('exp'+n);
+    if(exp){ exp.style.display = 'none'; }
+  });
+  updateScore();
+}
+
+function showAllExps(){
+  document.querySelectorAll('.explanation').forEach(exp=>{ exp.style.display = 'block'; });
+}
+function hideAllExps(){
+  document.querySelectorAll('.explanation').forEach(exp=>{ exp.style.display = 'none'; });
+}
+</script>
+</body>
+</html>
